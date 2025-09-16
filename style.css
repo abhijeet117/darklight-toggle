@@ -1,0 +1,46 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+
+.btn {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: cornflowerblue;
+
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
